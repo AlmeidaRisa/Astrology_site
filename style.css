@@ -1,0 +1,598 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:auto;
+    position:relative;
+
+}
+.container img{
+    width:100%;
+    height: 800px;
+    opacity: 0.7;
+}
+
+.container .nav-div{
+    position:absolute;
+    right:10px;
+    top:10px;
+    
+
+}
+.container .nav-div li {
+    list-style: none;
+    display:inline-block;
+    margin-right: 50px;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif
+}
+a{
+    text-decoration:none;
+    color: aliceblue;
+}
+
+.container .title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    color:white;
+    
+}
+
+/*About*/
+#first{
+    padding-left: 20px;
+    padding-top:20px;
+    padding-right: 20px;
+    padding-bottom: 40px;;
+}
+h3{
+    padding-bottom:20px;
+    font-size:28px;
+    color:rgb(97, 39, 163);
+}
+p{
+    font-size:22px;
+    text-align: justify;
+    color:rgb(104, 105, 106);
+    line-height: 1.6;
+    
+}
+
+
+/*Astrology*/
+.all{
+    background-image: linear-gradient(90deg,#5170ff,#ff66c4);
+}
+.all h3{
+    padding-top: 20px;
+    padding-left:20px;
+    font-size:28px;
+    color:rgb(246, 244, 248);
+    padding-bottom: 50px;
+
+}
+.all p{
+    font-size:24px;
+    text-align: justify;
+    padding-left:160px;
+    padding-right: 160px;
+    color:rgb(232, 234, 237);
+    line-height: 1.6;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+
+}
+h4{
+    font-size: 22px;
+    padding-left:20px;
+    padding-right: 20px;
+    color:rgb(41, 41, 41);
+    line-height:1.8;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    padding-left:160px;
+    padding-right: 160px;
+    text-align: justify;
+}
+/*mulank and bhagyank*/
+.numbers{
+    padding-left: 20px;
+    padding-top:20px;
+    padding-right: 20px;
+    padding-bottom: 40px;;
+
+}
+.numbers h3{
+    padding-bottom:20px;
+    font-size:28px;
+    color:rgb(97, 39, 163);
+
+}
+
+.numbers p{
+    font-size:22px;
+    text-align: justify;
+    color:rgb(104, 105, 106);
+    line-height: 1.6;
+
+}
+
+.plan-list{
+    font-size:22px;
+    text-align: justify;
+    color:rgb(104, 105, 106);
+    line-height: 1.6;
+    padding-left: 20px;
+
+}
+
+/*Animation*/
+.hidden{
+    opacity:0;
+    transition: all 3s;
+}
+.show{
+    opacity:1;
+}
+
+/*Planets listed*/
+.planets{
+    background-image: linear-gradient(90deg,#5170ff,#ff66c4);
+    
+}
+.planets h3{
+    padding-top: 20px;
+    padding-left:20px;
+    font-size:28px;
+    color:rgb(246, 244, 248);
+    padding-bottom: 50px;
+
+}
+.dev img{
+    height:400px;
+    width:450px;
+    padding-bottom: 20px;
+    
+    
+}
+.dev {
+    padding:auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    
+  }
+  .dev p{
+    color:white;
+    padding-left:160px;
+    padding-right: 160px;
+    text-align: justify;
+    padding-bottom:25px;
+  }
+  .planets h3{
+    text-align: center;
+    color:black;
+  }
+
+  .dev .life-path{
+    color:rgb(2, 69, 60);
+    padding-left:160px;
+    padding-right: 160px;
+    text-align: justify;
+    padding-bottom:25px;
+
+  }
+  
+/*Contact Me */
+.footer{
+    width:100%;
+    height:auto;
+    padding-bottom: 0px;
+    position:relative;
+
+}
+.footer img{
+    width:100%;
+    padding-bottom: 0px;
+    height:500px;
+    opacity:0.7;
+    
+    
+ }
+ 
+
+ /*contact form*/
+ .footer .contact-form{
+    position:absolute;
+    top:100px;
+    left:500px;
+    padding-bottom:20px;
+ }
+
+ .contact-form{
+    color:white;
+    margin:20px auto;
+    padding:20px;
+    background-image: linear-gradient(90deg,#5170ff,#ff66c4);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    
+ }
+ .contact-form label{
+    display:block;
+    margin-bottom:15px;
+ }
+
+ .contact-form input,.contact-form textarea{
+    width:100%;
+    padding:8px;
+    margin-bottom:15px;
+    border:1px solid #ed50c3;
+    border-radius: 4px;
+ }
+
+ .contact-form button{
+    width:50px;
+    border-radius:4px;
+    background-color:#010810;
+    color:white;
+    cursor:pointer;
+ }
+ .contact-form button:hover{
+    background-color: #0056b3;
+ }
+ .footer h4{
+    position: absolute;
+    top:450px;
+    left:330px;
+    color:beige;
+ }
+
+
+ /* For the page of Stories by Rissa Almeidda */
+ *{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+ .top-title{
+    width:100%;
+    height:150px;
+    background-image: linear-gradient(90deg, #ff3131,#ff914d);
+    box-shadow: 10px 10px 15px 5px rgb(138, 137, 137);
+
+ }
+ .top-title h2{
+    font-size:42px;
+    text-align: center;
+    
+    color: white;
+    font-family:sans-serif;
+ }
+ .top-title h4{
+    font-size:20px;
+    text-align: left;
+    padding-top:0px;
+    color: white;
+    font-family:sans-serif;
+    padding-left:20px;
+
+ }
+ .top-para{
+    padding:40px;
+    text-align: justify;
+    color:#434445;
+    font-family:sans-serif;
+ }
+
+ .story-board{
+    width:100%;
+    height:auto;
+    background-image: linear-gradient(90deg, #ff3131,#ff914d);
+    padding-bottom: 20px;
+ }
+
+ .story-board img{
+    padding:50px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    height:550px;
+    width:430px;
+    transition:transform 0.4s ease;
+ }
+ .story-board img:hover{
+    transform:scale(1.1);
+ }
+
+ figure{
+    display:inline-block;
+ }
+ figcaption{
+    font-size:22px;
+    text-align:center;
+    padding-top: 0px;
+    border-radius:50px;
+    color:#ffffff;
+}
+
+
+/*responsive part*/
+
+/* Mobile Styles (Max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    /* Container adjustments */
+    .container img {
+        height: 300px; /* Adjust image height for smaller screens */
+        object-fit: cover; /* Ensure the image covers the container */
+    }
+
+    /* Navigation adjustments */
+    .container .nav-div {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+         /* Smaller font size for navigation */
+    }
+
+    .container .nav-div li {
+        display: block; /* Stack navigation items vertically */
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 15px; /* Add spacing between items */
+    }
+
+    .container .title h2 {
+        font-size: 30px; /* Smaller title font size for mobile */
+        text-align: center; /* Center the title */
+    }
+
+    /* About Section */
+    #first {
+        padding: 10px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 22px;
+    }
+
+    /* Astrology Section */
+    .all h3 {
+        font-size: 22px; /* Smaller heading */
+         /* Center text */
+    }
+
+    .all p {
+        font-size: 16px; /* Smaller font for paragraph */
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.5;
+    }
+
+    h4 {
+        font-size: 18px; /* Smaller subheading */
+        text-align: justify;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .numbers h3{
+        font-size:22px;
+    }
+    .numbers p{
+        font-size: 15px;
+    }
+
+    /* Planets Section */
+    .planets h3 {
+        font-size: 22px; /* Smaller heading */
+        text-align: center;
+    }
+
+    .dev img {
+        width: 80%; /* Make images responsive, fill container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .dev p {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px; /* Smaller font */
+        text-align: justify;
+    }
+
+    .dev .life-path {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px; /* Smaller font */
+        text-align: justify; /* Smaller font for life path text */
+        color: rgb(2, 69, 60);
+    }
+
+    /* Contact Section */
+    /* Contact Section */
+.footer {
+    position: relative; /* Make the footer a positioning context */
+}
+
+.footer img {
+    height: 200px; /* Adjust image height */
+    object-fit: cover; /* Maintain aspect ratio */
+    width: 100%; /* Make sure the image fills the container */
+}
+
+.footer .contact-form {
+    position: absolute; /* Position the form on top of the image */
+    top: 10px; /* Space from the top */
+    left: 50%; /* Center the form horizontally */
+    transform: translateX(-50%); /* Center the form perfectly */
+    width: 80%; /* Set a max width for the form */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    z-index: 10; /* Make sure the form is above the image */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%; /* Full width for input and textarea */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ed50c3;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    width: 100%; /* Full width button */
+    padding: 10px;
+    background-color: #010810;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.footer h4 {
+    font-size: 14px;
+    text-align: center;
+    color: beige;
+}
+
+}
+
+
+/*Stories responsive page*/
+/* Mobile View - 600px and below */
+@media screen and (max-width: 600px) {
+
+    /* Top Title Section */
+    .top-title {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .top-title h2 {
+        font-size: 28px; /* Adjust font size for mobile */
+    }
+
+    .top-title h4 {
+        font-size: 16px; /* Adjust font size for mobile */
+        text-align: center;
+        padding-left: 0;
+    }
+
+    /* Paragraph Section */
+    .top-para {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    /* Storyboard Section */
+    .story-board {
+        padding: 10px;
+        background: none; /* Remove gradient to keep it simple */
+        text-align: center;
+    }
+
+    .story-board img {
+        width: 80%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+        padding: 10px 0;
+        
+    }
+
+    figure {
+        display: block; /* Stack images vertically */
+        width: 100%; /* Ensure figures take full width */
+        margin-bottom: 15px;
+    }
+
+    /* Ensuring figcaption visibility */
+figcaption {
+    font-size: 16px; /* Adjust font size for readability */
+    text-align: center;
+    padding-top: 5px;
+    padding: 10px;
+    color: rgb(10, 10, 10); /* Ensure text color is visible */
+    
+}
+
+
+    /* Footer Section */
+    .footer {
+        position: relative;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer img {
+        width: 100%; /* Make the image responsive */
+        height: 250px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .contact-form {
+        position: relative;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5); /* Transparent background for text */
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+
+    .contact-form label {
+        display: block;
+        font-size: 14px;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ed50c3;
+        border-radius: 4px;
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #010810;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+
+   
+
+}
